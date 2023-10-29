@@ -289,6 +289,10 @@ button {
   height: 24px;
 }
 
+.new-product-footer a {
+  color: #000;
+}
+
 .footer-link {
   text-decoration-line: underline;
   font-size: 14px;
@@ -448,6 +452,11 @@ button {
 .information-container {
   /* border: 1px solid yellow; */
   gap: 24px;
+}
+
+.information-container .phone-number,
+.information-container .support-mail {
+  gap: 12px;
 }
 
 .form-container {
