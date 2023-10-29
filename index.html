@@ -193,36 +193,56 @@
         <article class="display-flex">
           <div class="display-flex question-title">
             <h3>¿Cómo hago el pedido?</h3>
-            <img src="assets/icons/arrow up.svg" alt="" />
+            <button
+              class="arrow-button answer-button-1 faq-button-hover"
+              type="button"
+            ></button>
           </div>
-          <img src="assets/images/Divider.jpg" alt="" />
-          <p class="faq-answers">
-            Selecciona el café que desees probar y completa el proceso de
-            compra. Si lo prefieres, te preguntaremos cada cuánto quieres que te
-            lo mandemos a casa y así nunca te quedarás sin café.
-          </p>
+
+          <div class="display-flex flex-column answers answer-1">
+            <img src="assets/images/Divider.jpg" alt="" />
+
+            <p class="faq-answers">
+              Selecciona el café que desees probar y completa el proceso de
+              compra. Si lo prefieres, te preguntaremos cada cuánto quieres que
+              te lo mandemos a casa y así nunca te quedarás sin café.
+            </p>
+          </div>
         </article>
 
         <article class="display-flex">
           <div class="display-flex question-title">
             <h3>¿Por qué los precios son tan bajos?</h3>
-            <img src="assets/icons/arrow up.svg" alt="" />
+            <button class="arrow-button answer-2"></button>
           </div>
-          <img src="assets/images/Divider.jpg" alt="" />
-          <p class="faq-answers">
-            Viajamos constantemente para encontrar los mejores granos y a los
-            agricultores más exigentes. Si podemos ofrecerte estos precios es
-            porque tratamos directamente con los productores de café, sin
-            intermediarios. Así obtenemos el mejor precio para ti y la persona
-            que está detrás de los granos de café recibe el mayor beneficio
-            posible.
-          </p>
+
+          <div class="display-flex flex-column answers answer-2">
+            <img src="assets/images/Divider.jpg" alt="" />
+            <p class="faq-answers">
+              Viajamos constantemente para encontrar los mejores granos y a los
+              agricultores más exigentes. Si podemos ofrecerte estos precios es
+              porque tratamos directamente con los productores de café, sin
+              intermediarios. Así obtenemos el mejor precio para ti y la persona
+              que está detrás de los granos de café recibe el mayor beneficio
+              posible.
+            </p>
+          </div>
         </article>
 
         <article class="display-flex">
           <div class="display-flex question-title">
             <h3>¿Es posible enviar café a mi oficina?</h3>
-            <img src="assets/icons/arrow down.svg" alt="" />
+            <button class="arrow-button answer-3"></button>
+          </div>
+
+          <div class="display-flex flex-column answers answer-2">
+            <img src="assets/images/Divider.jpg" alt="" />
+            <p class="faq-answers">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+              autem corrupti. Rerum, aliquid, nobis aspernatur culpa quo dolores
+              molestias deserunt maxime sapiente tempora delectus distinctio
+              atque quam dolor, nostrum tenetur.
+            </p>
           </div>
         </article>
       </div>
@@ -311,19 +331,23 @@
 
             <div class="display-flex flex-column input-gap">
               <label for="">Teléfono</label>
-              <div class="display-flex phone-information">
-                <select
-                  class="form-inputs phone-cod-selection"
-                  id="country"
-                  name="country"
-                >
-                  <option>ES</option>
-                  <option selected>US</option>
-                  <option>VEN</option>
-                </select>
+
+              <div
+                class="display-flex form-inputs number-focus phone-information"
+              >
+                <div class="display-flex phone-selection">
+                  <select
+                    class="phone-cod-selection"
+                    id="country"
+                    name="country"
+                  >
+                    <option>ES</option>
+                    <option selected>US</option>
+                  </select>
+                </div>
 
                 <input
-                  class="form-inputs number-input"
+                  class="number-input number-focus"
                   type="tel"
                   placeholder="+1 (555) 987-6543"
                 />
