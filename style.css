@@ -91,6 +91,10 @@ button {
   gap: 7.332px;
 }
 
+.navbar-logo a {
+  color: var(--White);
+}
+
 .navbar ul {
   align-items: center;
   gap: 16px;
@@ -233,6 +237,10 @@ button {
   align-items: center;
   padding: 40px;
   gap: 40px;
+}
+
+.new-products-section h2 {
+  color: var(--Green);
 }
 
 .new-products-section .products-container {
@@ -477,6 +485,7 @@ button {
 .phone-cod-selection {
   background: var(--White);
   border: none;
+  padding: 5px 7px;
 }
 
 .form-inputs {
@@ -523,20 +532,7 @@ form textarea {
 .phone-information .number-input {
   width: 87%;
   border: none;
-  padding: 0;
-}
-
-/* .phone-information button {
-  justify-content: center;
-  align-items: center;
-  border-right: none;
-  padding: 5px 7px;
-} */
-
-.phone-selection {
-  border: none;
-  justify-content: center;
-  padding: 5px 7px;
+  padding: 3px 15px;
 }
 
 .phone-selection selector-arrow {
@@ -637,15 +633,15 @@ form textarea {
   background: var(--Grey);
 }
 
-.page-footer footer {
+.copyright-footer {
   width: 100%;
   height: 40px;
-  padding: 12px 380.5px 12px 540.5px;
-  align-items: center;
+  padding: 12px 0px;
+  justify-content: center;
   background: var(--Dark-grey);
 }
 
-.page-footer footer p {
+.copyright-footer p {
   font-size: 14px;
   font-weight: 600;
   color: var(--White);
@@ -657,4 +653,166 @@ form textarea {
 
 .column-1 {
   transform: translateX(100px);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+/* ------------------------------------------------------- SHOP PAGE --------------------------------------------------------------  */
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+
+.shop-section {
+  padding: 40px;
+  gap: 24px;
+}
+
+.products-container .out-of-stock {
+  opacity: 0.5;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+/* ------------------------------------------------------- CART PAGE --------------------------------------------------------------  */
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+
+.cart-section {
+  /* border: 1px solid green; */
+  height: 86.5vh;
+  align-items: center;
+  padding: 40px;
+  gap: 24px;
+}
+
+.cart-section h2 {
+  color: var(--Green);
+}
+.cart-products-and-total-container {
+  /* border: 1px solid red; */
+  padding: 8px;
+  gap: 24px;
+}
+
+.cart-products {
+  /* border: 1px solid black; */
+  gap: 24px;
+}
+
+.products {
+  /* border: 1px solid purple; */
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.product-column {
+  width: 506.34px;
+  gap: 4px;
+}
+
+.product-column .product-name {
+  font-weight: 600;
+}
+
+.cart-products .product-img img {
+  align-self: center;
+  width: 55.66px;
+  height: 55.66px;
+}
+
+.product-counter {
+  align-items: center;
+  gap: 8px;
+}
+
+.counter-circle-container {
+  align-items: center;
+}
+
+.product-counter p {
+  color: var(--Green, #2a5b45);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.plus-button {
+  background-image: url(assets/icons/plus-symbol.svg);
+  background-repeat: no-repeat;
+  padding: 0;
+  background-color: var(--White);
+}
+
+.counter-circle {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 200px;
+  background: rgba(42, 91, 69, 0.1);
+}
+
+.minus-button {
+  background-image: url(assets/icons/minus-symbol.svg);
+  background-repeat: no-repeat;
+  padding: 0;
+  background-color: var(--White);
+}
+
+.cart-products button {
+  width: 24px;
+  height: 24px;
+}
+
+.free-shipping-option {
+  gap: 16px;
+}
+
+.urgent-shipping-option {
+  gap: 16px;
+}
+
+.shipping-days {
+  width: 100%;
+  gap: 4px;
+}
+
+.shipping-time {
+  font-weight: 600;
+}
+
+/* -------------------------------- TOTAL ASIDE CONTAINER ------------------  */
+.cart-total-container {
+  /* border: 1px solid blue; */
+  width: 384px;
+  height: 280px;
+  padding: 24px;
+  gap: 16px;
+  background: #f7f5f3;
+}
+
+.divider-line-total {
+  width: 336px;
+  height: 1px;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.total-payment {
+  gap: 8px;
+}
+
+.total-payment .amount {
+  align-self: flex-end;
+}
+
+.cart-amounts {
+  gap: 16px;
+}
+
+.checkout-button {
+  background: var(--Green);
+  color: var(--White);
+}
+
+.keep-shopping-button {
+  background: #f7f5f3;
+  color: var(--Green);
 }

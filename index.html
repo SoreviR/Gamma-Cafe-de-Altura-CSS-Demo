@@ -17,13 +17,13 @@
     <header class="display-flex header">
       <nav class="navbar display-flex">
         <figure class="navbar-logo display-flex">
-          <h4 class="logo">cafedealtura.com</h4>
+          <a href="index.html"><h4 class="logo">cafedealtura.com</h4></a>
           <img src="assets/icons/ps_coffee-hot.png" alt="logo icon" />
         </figure>
 
         <ul class="display-flex">
           <li>
-            <a href=""><button>Tienda</button></a>
+            <a href="tienda.html"><button>Tienda</button></a>
           </li>
 
           <li>
@@ -53,7 +53,9 @@
         </div>
 
         <figure class="cart-icon display-flex">
-          <img src="assets/icons/cart-bag-icon.png" alt="cart icon" />
+          <a href="cesta.html"
+            ><img src="assets/icons/cart-bag-icon.png" alt="cart icon"
+          /></a>
         </figure>
       </nav>
     </header>
@@ -129,6 +131,7 @@
 
     <section class="display-flex new-products-section">
       <h2>Novedades</h2>
+
       <div class="display-flex products-container">
         <!-- ------------- COFFE CARD 1 ------------------- -->
         <div class="display-flex new-product-container">
@@ -335,16 +338,10 @@
               <div
                 class="display-flex form-inputs number-focus phone-information"
               >
-                <div class="display-flex phone-selection">
-                  <select
-                    class="phone-cod-selection"
-                    id="country"
-                    name="country"
-                  >
-                    <option>ES</option>
-                    <option selected>US</option>
-                  </select>
-                </div>
+                <select class="phone-cod-selection" id="country" name="country">
+                  <option>ES</option>
+                  <option selected>US</option>
+                </select>
 
                 <input
                   class="number-input number-focus"
@@ -386,7 +383,7 @@
     <section class="display-flex flex-column page-footer">
       <article class="display-flex flex-column footer-info-container">
         <figure class="navbar-logo display-flex">
-          <h4 class="logo">cafedealtura.com</h4>
+          <a href="index.html"><h4 class="logo">cafedealtura.com</h4></a>
           <img src="assets/icons/ps_coffee-hot.png" alt="logo icon" />
         </figure>
 
@@ -415,7 +412,7 @@
           <div class="display-flex footer-column column-1">
             <ul class="display-flex flex-column">
               <li>
-                <a href="">Tienda</a>
+                <a href="tienda.html">Tienda</a>
               </li>
 
               <li>
@@ -453,7 +450,7 @@
           </div>
         </div>
       </article>
-      <footer class="displa-flex copyright-footer">
+      <footer class="display-flex copyright-footer">
         <p>Todos los derechos reservados - Café de Altura SL - 2022</p>
       </footer>
     </section>
