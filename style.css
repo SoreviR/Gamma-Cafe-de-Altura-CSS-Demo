@@ -118,6 +118,7 @@ button {
 
 .navbar-number-and-login p {
   color: var(--White);
+  font-weight: 600;
 }
 
 .navbar-number-and-login figure {
