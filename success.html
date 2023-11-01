@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Café de Altura</title>
+  </head>
+  <body>
+    <!-- ------------------------------------------------- NAVBAR SECTION --------------------------------------------- -->
+    <header class="display-flex header">
+      <nav class="navbar display-flex">
+        <figure class="navbar-logo display-flex">
+          <a href="index.html"><h4 class="logo">cafedealtura.com</h4></a>
+          <img src="assets/icons/ps_coffee-hot.png" alt="logo icon" />
+        </figure>
+
+        <ul class="display-flex">
+          <li>
+            <a href="tienda.html"><button>Tienda</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Suscripción</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Para empresas</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Sobre nosotros</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Contacto</button></a>
+          </li>
+        </ul>
+
+        <div class="navbar-number-and-login display-flex">
+          <figure class="display-flex">
+            <img src="assets/icons/Phone.svg" alt="phone icon" />
+            <p class="phone-number">+34 919 49 05 18</p>
+          </figure>
+
+          <a href=""><button>Iniciar sesión</button></a>
+        </div>
+
+        <figure class="cart-icon display-flex">
+          <a href="cesta.html"
+            ><img src="assets/icons/cart-bag-icon.png" alt="cart icon"
+          /></a>
+        </figure>
+      </nav>
+    </header>
+
+    <!-- ------------------------------------------------- SUCCESS TITLE --------------------------------------------------  -->
+
+    <section class="display-flex flex-column cards-container success-section">
+      <article class="display-flex flex-column success-title">
+        <figure class="condition-cards-icon">
+          <img src="assets/icons/Clipboard check.svg" alt="" />
+        </figure>
+        <h3>Recibe tu pedido sin preocuparte</h3>
+        <div class="success-content-title">
+          <p>
+            El pedido #12387 se encuentra en preparación. Lo recibirás dentro de
+            las fechas acordadas en tu envío. Hemos enviado un ticket a tu
+            correo electrónico.
+          </p>
+        </div>
+      </article>
+
+      <main class="display-flex flex-column cart-products success-products">
+        <h3>Tu pedido</h3>
+
+        <div class="display-flex success-products-line">
+          <div class="display-flex left-success-products">
+            <figure class="display-flex product-img">
+              <img src="assets/images/Coffee bag 1 cart.png" alt="" />
+            </figure>
+            <div class="display-flex flex-column product-column">
+              <p class="product-name">Colombia los Naranjos</p>
+              <p class="product-detail">Paquete de café, 250 gr</p>
+            </div>
+          </div>
+          <h3 class="product-price">9,00€</h3>
+        </div>
+
+        <img src="assets/images/Divider.jpg" alt="" class="divider-line" />
+
+        <div class="display-flex success-products-line">
+          <div class="display-flex left-success-products">
+            <figure class="display-flex product-img">
+              <img src="assets/images/Coffee bag 2 cart.png" alt="" />
+            </figure>
+            <div class="display-flex flex-column product-column">
+              <p class="product-name">Colombia La Casita</p>
+              <p class="product-detail">Paquete de café, 250 gr</p>
+            </div>
+          </div>
+
+          <h3 class="product-price">9,00€</h3>
+        </div>
+
+        <img src="assets/images/Divider.jpg" alt="" class="divider-line" />
+
+        <div class="display-flex flex-space-between subtotal-container">
+          <p>SUBTOTAL</p>
+          <p class="amount weight-600-text">18,00 €</p>
+        </div>
+
+        <div class="display-flex flex-space-between shipping-container">
+          <p>ENVÍO</p>
+          <p class="amount weight-600-text">GRATIS</p>
+        </div>
+        <img
+          src="assets/images/Divider.jpg"
+          alt=""
+          class="divider-line-total"
+        />
+        <div class="display-flex flex-space-between">
+          <p class="weight-600-text">TOTAL</p>
+          <div class="display-flex flex-column total-payment">
+            <p class="amount weight-600-text">18,00 €</p>
+            <p class="iva-amount">Incluye 3,78€ de IVA</p>
+          </div>
+        </div>
+      </main>
+
+      <a href="tienda.html"
+        ><button class="success-button-page">Volver a la tienda</button></a
+      >
+    </section>
+    <!-- --------------------------------------------------- FOOTER -------------------------------------------------------  -->
+    <footer class="display-flex copyright-footer">
+      <p>Todos los derechos reservados - Café de Altura SL - 2022</p>
+    </footer>
+  </body>
+</html>

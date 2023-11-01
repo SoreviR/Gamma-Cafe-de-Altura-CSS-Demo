@@ -676,7 +676,8 @@ form textarea {
 
 .cart-section {
   /* border: 1px solid green; */
-  height: 86.5vh;
+  height: 772px;
+  /* 86.5vh; */
   align-items: center;
   padding: 40px;
   gap: 24px;
@@ -786,6 +787,7 @@ form textarea {
   padding: 24px;
   gap: 16px;
   background: #f7f5f3;
+  border-radius: 10px;
 }
 
 .weight-600-text {
@@ -805,11 +807,19 @@ form textarea {
   gap: 8px;
 }
 
+.iva-amount {
+  font-size: 12px;
+}
+
 .total-payment .amount {
   align-self: flex-end;
 }
 
 .cart-amounts {
+  gap: 16px;
+}
+
+.total-buttons {
   gap: 16px;
 }
 
@@ -843,7 +853,7 @@ form textarea {
 }
 
 .checkout-main-container {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   gap: 24px;
 }
 
@@ -875,8 +885,16 @@ form textarea {
   gap: 24px;
 }
 
+.fit-content {
+  width: 111.7px;
+}
+
 .card-details {
   width: 127.5px;
+}
+
+.address-details {
+  width: 249px;
 }
 
 .checkout-form-inputs {
@@ -897,7 +915,7 @@ form textarea {
 }
 
 .second-form-checkout {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 521px;
   gap: 8px;
 }
@@ -908,4 +926,50 @@ form textarea {
 
 .checkout-divider {
   width: 776px;
+}
+
+.checkout-button-page {
+  background: #e3ded7;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+/* ------------------------------------------------------- SUCCESS PAGE ----------------------------------------------------------  */
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+
+.success-section {
+  align-items: center;
+  height: 1054px;
+  padding: 40px;
+  gap: 24px;
+}
+
+.success-title {
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.success-content-title {
+  width: 346px;
+}
+
+.success-products {
+  width: 1200px;
+  padding: 24px;
+  background: var(--Off-white);
+  border-radius: 10px;
+}
+
+.success-products-line {
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.left-success-products {
+  gap: 24px;
+}
+
+.success-button-page {
+  background: var(--Green);
+  color: var(--White);
 }

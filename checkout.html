@@ -176,12 +176,12 @@
             </label>
 
             <div class="display-flex card-information">
-              <label for=""
+              <label class="address-details" for=""
                 >Población
                 <input class="form-inputs checkout-form-inputs" type="text" />
               </label>
 
-              <label for=""
+              <label class="address-details" for=""
                 >CP
                 <input
                   class="form-inputs checkout-form-inputs"
@@ -191,23 +191,23 @@
               </label>
             </div>
 
-            <div class="display-flex four-inputs-checkout">
-              <label for=""
+            <div class="display-flex four-inputs-checkout fit-content">
+              <label class="fit-content" for=""
                 >Calle
                 <input class="form-inputs checkout-form-inputs" type="text" />
               </label>
 
-              <label for=""
+              <label class="fit-content" for=""
                 >Nº
                 <input class="form-inputs checkout-form-inputs" type="text" />
               </label>
 
-              <label for=""
+              <label class="fit-content" for=""
                 >Piso
                 <input class="form-inputs checkout-form-inputs" type="text" />
               </label>
 
-              <label for=""
+              <label class="fit-content" for=""
                 >Puerta
                 <input class="form-inputs checkout-form-inputs" type="text" />
               </label>
@@ -217,34 +217,42 @@
         </main>
 
         <!-- ------------------------------- CART TOTAL --------------------------  -->
-        <aside class="">
-          <div class="">
-            <h3 class="">Total del carrito</h3>
-            <img src="../../public/images/Divider.jpg" alt="" class="" />
-            <div class="">
-              <p class="">SUBTOTAL</p>
-              <p class="">18,00 €</p>
+        <aside class="display-flex flex-column cart-total-container">
+          <div class="display-flex flex-column cart-amounts">
+            <h3>Total del carrito</h3>
+            <img
+              src="assets/images/Divider.jpg"
+              alt=""
+              class="divider-line-total"
+            />
+            <div class="display-flex flex-space-between subtotal-container">
+              <p>SUBTOTAL</p>
+              <p class="amount weight-600-text">18,00 €</p>
             </div>
 
-            <div class="">
-              <p class="">ENVÍO</p>
-              <p class="">GRATIS</p>
+            <div class="display-flex flex-space-between shipping-container">
+              <p>ENVÍO</p>
+              <p class="amount weight-600-text">GRATIS</p>
             </div>
-            <img src="../../public/images/Divider.jpg" alt="" class="" />
-            <div class="">
-              <p class="">TOTAL</p>
-              <div class="">
-                <p class="">18,00 €</p>
-                <p class="">Incluye 3,78€ de IVA</p>
+            <img
+              src="assets/images/Divider.jpg"
+              alt=""
+              class="divider-line-total"
+            />
+            <div class="display-flex flex-space-between">
+              <p class="weight-600-text">TOTAL</p>
+              <div class="display-flex flex-column total-payment">
+                <p class="amount weight-600-text">18,00 €</p>
+                <p class="iva-amount">Incluye 3,78€ de IVA</p>
               </div>
             </div>
           </div>
 
-          <div class="">
-            <a class="" href=""
-              ><button class="">Pagar y realizar pedido</button></a
-            >
-          </div>
+          <a href="success.html"
+            ><button class="checkout-button-page">
+              Pagar y realizar pedido
+            </button></a
+          >
         </aside>
       </div>
     </section>
