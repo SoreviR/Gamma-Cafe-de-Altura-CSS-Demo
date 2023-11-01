@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="font-body">
+    <!-- ------------------------------------------------- NAVBAR SECTION --------------------------------------------- -->
+    <header class="display-flex header">
+      <nav class="navbar display-flex">
+        <figure class="navbar-logo display-flex">
+          <a href="index.html"><h4 class="logo">cafedealtura.com</h4></a>
+          <img src="assets/icons/ps_coffee-hot.png" alt="logo icon" />
+        </figure>
+
+        <ul class="display-flex">
+          <li>
+            <a href="tienda.html"><button>Tienda</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Suscripción</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Para empresas</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Sobre nosotros</button></a>
+          </li>
+
+          <li>
+            <a href=""><button>Contacto</button></a>
+          </li>
+        </ul>
+
+        <div class="navbar-number-and-login display-flex">
+          <figure class="display-flex">
+            <img src="assets/icons/Phone.svg" alt="phone icon" />
+            <p class="phone-number">+34 919 49 05 18</p>
+          </figure>
+
+          <a href=""><button>Iniciar sesión</button></a>
+        </div>
+
+        <figure class="cart-icon display-flex">
+          <a href="cesta.html"
+            ><img src="assets/icons/cart-bag-icon.png" alt="cart icon"
+          /></a>
+          <img src="assets/icons/cart-number.png" alt="" />
+        </figure>
+      </nav>
+    </header>
+    <!-- ----------------------------------------------- CHECKOUT SECTION -------------------------------------------------  -->
+
+    <section class="checkout-section display-flex flex-column">
+      <h2 class="checkout-title">Checkout</h2>
+
+      <div class="display-flex forms-and-total-container">
+        <main class="display-flex flex-column checkout-main-container">
+          <h3 class="">Seleccionar método de pago</h3>
+          <div class="display-flex pay-option">
+            <input type="radio" name="forma-de-pago" checked />
+            <div class="display-flex flex-column pay-information">
+              <p class="form-bold-title">Tarjeta de débito</p>
+              <p class="">Opción estándar sin seguimiento</p>
+            </div>
+            <div class="price-square"></div>
+          </div>
+
+          <form class="display-flex flex-column first-form-cheackout" action="">
+            <label class="display-flex flex-column" for=""
+              >Titular
+              <input
+                class="form-inputs checkout-form-inputs"
+                type="text"
+                placeholder="Nombre del titular"
+              />
+            </label>
+            <label class="display-flex flex-column" for=""
+              >Número de la tarjeta
+              <input
+                class="form-inputs checkout-form-inputs"
+                type="text"
+                placeholder="1234 1234 1234 1234"
+              />
+            </label>
+            <div class="display-flex card-information">
+              <label class="display-flex flex-column card-details" for=""
+                >Fecha de caducidad
+                <input
+                  class="form-inputs checkout-form-inputs"
+                  type="text"
+                  placeholder="MM / YY"
+                />
+              </label>
+
+              <label class="display-flex flex-column card-details" for=""
+                >CVC
+                <input
+                  class="form-inputs checkout-form-inputs"
+                  type="text"
+                  placeholder="123"
+                />
+              </label>
+            </div>
+          </form>
+
+          <img
+            class="checkout-divider"
+            src="./assets/images/Divider.jpg"
+            alt=""
+          />
+
+          <div class="display-flex pay-option">
+            <input class="" type="radio" name="forma-de-pago" />
+            <div class="display-flex flex-column pay-information">
+              <p class="form-bold-title">
+                Transferencia bancaria a la cuenta ES12 1234 1234 123457890
+              </p>
+              <p class="">
+                Será necesario recibir el comprobante de la transferencia para
+                preparar tu pedido
+              </p>
+            </div>
+          </div>
+
+          <img src="./assets/images/Divider.jpg" alt="" />
+
+          <div class="display-flex pay-option">
+            <input type="radio" name="forma-de-pago" />
+            <p class="form-bold-title">Bizum</p>
+            <img
+              class="bizum-icon"
+              src="./assets/icons/bizum icon.png"
+              alt=""
+            />
+          </div>
+
+          <h3 class="">Dirección de envío</h3>
+
+          <form class="display-flex flex-column second-form-checkout" action="">
+            <label class="" for=""
+              >Nombre
+              <input class="form-inputs checkout-form-inputs" type="text" />
+            </label>
+
+            <label class="" for=""
+              >Apellidos
+              <input class="form-inputs checkout-form-inputs" type="text" />
+            </label>
+
+            <label class="" for=""
+              >Teléfono
+              <input
+                class="form-inputs checkout-form-inputs"
+                type="tel"
+                placeholder="+34 600 6000 600"
+              />
+            </label>
+
+            <label for=""
+              >Email
+              <input class="form-inputs checkout-form-inputs" type="email" />
+            </label>
+
+            <label for=""
+              >País
+              <select class="form-inputs checkout-form-inputs" name="" id="">
+                <option value="">Seleccionar</option>
+                <option value="">Seleccion 1</option>
+              </select>
+            </label>
+
+            <div class="display-flex card-information">
+              <label for=""
+                >Población
+                <input class="form-inputs checkout-form-inputs" type="text" />
+              </label>
+
+              <label for=""
+                >CP
+                <input
+                  class="form-inputs checkout-form-inputs"
+                  type="text"
+                  placeholder="123"
+                />
+              </label>
+            </div>
+
+            <div class="display-flex four-inputs-checkout">
+              <label for=""
+                >Calle
+                <input class="form-inputs checkout-form-inputs" type="text" />
+              </label>
+
+              <label for=""
+                >Nº
+                <input class="form-inputs checkout-form-inputs" type="text" />
+              </label>
+
+              <label for=""
+                >Piso
+                <input class="form-inputs checkout-form-inputs" type="text" />
+              </label>
+
+              <label for=""
+                >Puerta
+                <input class="form-inputs checkout-form-inputs" type="text" />
+              </label>
+            </div>
+          </form>
+          <!-- </div> -->
+        </main>
+
+        <!-- ------------------------------- CART TOTAL --------------------------  -->
+        <aside class="">
+          <div class="">
+            <h3 class="">Total del carrito</h3>
+            <img src="../../public/images/Divider.jpg" alt="" class="" />
+            <div class="">
+              <p class="">SUBTOTAL</p>
+              <p class="">18,00 €</p>
+            </div>
+
+            <div class="">
+              <p class="">ENVÍO</p>
+              <p class="">GRATIS</p>
+            </div>
+            <img src="../../public/images/Divider.jpg" alt="" class="" />
+            <div class="">
+              <p class="">TOTAL</p>
+              <div class="">
+                <p class="">18,00 €</p>
+                <p class="">Incluye 3,78€ de IVA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="">
+            <a class="" href=""
+              ><button class="">Pagar y realizar pedido</button></a
+            >
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- -------------------------------- FOOTER ----------------------------------  -->
+    <footer class="display-flex copyright-footer">
+      <p>Todos los derechos reservados - Café de Altura SL - 2022</p>
+    </footer>
+  </body>
+</html>

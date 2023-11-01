@@ -137,6 +137,7 @@ button {
 
 .cart-icon {
   align-items: center;
+  gap: 8px;
 }
 
 /* ------------------------------------------------- MAIN SECTION (HERO) ---------------------------------------------  */
@@ -787,6 +788,10 @@ form textarea {
   background: #f7f5f3;
 }
 
+.weight-600-text {
+  font-weight: 600;
+}
+
 .divider-line-total {
   width: 336px;
   height: 1px;
@@ -816,4 +821,91 @@ form textarea {
 .keep-shopping-button {
   background: #f7f5f3;
   color: var(--Green);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+/* ------------------------------------------------------- CHECKOUT PAGE ----------------------------------------------------------  */
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+
+.checkout-section {
+  /* align-items: center; */
+  gap: 24px;
+  padding: 40px;
+  align-items: center;
+}
+
+.checkout-title {
+  color: var(--Green);
+}
+
+.forms-and-total-container {
+  gap: 24px;
+}
+
+.checkout-main-container {
+  border: 1px solid blue;
+  gap: 24px;
+}
+
+.pay-option {
+  gap: 16px;
+  align-items: center;
+}
+
+.pay-information {
+  gap: 4px;
+}
+
+.price-square {
+  width: 55px;
+  height: 24px;
+}
+
+.first-form-cheackout {
+  gap: 8px;
+  width: 279px;
+}
+
+.form-bold-title {
+  font-weight: 600;
+}
+
+.card-information {
+  flex-grow: 1;
+  gap: 24px;
+}
+
+.card-details {
+  width: 127.5px;
+}
+
+.checkout-form-inputs {
+  padding: 10px 8px;
+}
+
+.checkout-main-container form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 3px;
+}
+
+.bizum-icon {
+  width: 69.231px;
+  height: 30px;
+}
+
+.second-form-checkout {
+  border: 1px solid red;
+  width: 521px;
+  gap: 8px;
+}
+
+.four-inputs-checkout {
+  gap: 24px;
+}
+
+.checkout-divider {
+  width: 776px;
 }
